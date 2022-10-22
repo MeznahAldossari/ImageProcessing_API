@@ -37,11 +37,8 @@ describe('Testing', () => {
   });
 
   it('Resize Image', async () => {
-   
-
-    const MainSource = path.resolve('./images/palmtunnel.jpg')
+    const MainSource = path.resolve('./images/palmtunnel.jpg');
     const DistPath = path.resolve(
-      
       './images/resize_images/palmtunnel-300-400.jpg'
     );
 

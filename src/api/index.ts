@@ -26,7 +26,7 @@ Router.get(
     const ImageExisting = fs.existsSync(SourceFile);
     console.log(ImageExisting);
 
-    let booleanvalue: boolean = false;
+    let booleanvalue = false;
     if (ImageExisting == false) {
       booleanvalue = true;
     }

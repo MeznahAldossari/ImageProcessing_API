@@ -6,7 +6,7 @@ import middelwares from './all_utilities/middelwares';
 const app = express();
 const port = 3009;
 
-app.use('/api',middelwares, Router);
+app.use('/api', middelwares, Router);
 app.use(express.static('/images'));
 
 app.listen(port, () =>
